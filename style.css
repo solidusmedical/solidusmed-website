@@ -1,0 +1,36 @@
+body,
+html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Metropolis-ExtraLight.otf) format("otf");
+}
+
+
+
+.bg {
+    /* The image used */
+    background-image: linear-gradient(to right top, #0600ef, #0036d7, #0042b5, #00468d, #2b4562);
+    /*background-repeat:no-repeat;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+
+}
+
+div {
+    font-family: myFirstFont;
+    text-align: center;
+}
