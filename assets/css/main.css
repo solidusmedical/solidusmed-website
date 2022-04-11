@@ -216,7 +216,7 @@ body,
 input,
 select,
 textarea {
-	color: rgba(255, 255, 255, 0.55);
+	color: #f2ffff;
 	font-family: Metropolis;
 	font-size: 16.5pt;
 	font-weight: normal;
@@ -268,12 +268,12 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #ffffff;
+	color: #f2ffff;
 }
 
 strong,
 b {
-	color: #ffffff;
+	color: #f2ffff;
 	font-weight: bold;
 }
 
@@ -292,7 +292,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #ffffff;
+	color: #f2ffff;
 	font-weight: bold;
 	line-height: 1.5;
 	margin: 0 0 0.5em 0;
@@ -1957,7 +1957,7 @@ button,
 	border: solid 1px !important;
 	border-color: rgba(255, 255, 255, 0.15) !important;
 	border-radius: 3em;
-	color: #ffffff !important;
+	color: #f2ffff !important;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.6em;
@@ -1988,7 +1988,7 @@ button:after,
 	-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 	-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 	transition: opacity 0.2s ease, transform 0.2s ease;
-	background: #ffffff;
+	background: #f2ffff;
 	border-radius: 3em;
 	content: '';
 	height: 100%;
@@ -2036,7 +2036,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-	background-color: #ffffff;
+	background-color: #f2ffff;
 	color: #312450 !important;
 }
 
@@ -2088,7 +2088,7 @@ input[type="reset"]:hover:active,
 input[type="button"]:hover:active,
 button:hover:active,
 .button:hover:active {
-	border-color: #ffffff !important;
+	border-color: #f2ffff !important;
 }
 
 input[type="submit"]:hover:active:after,
@@ -2418,7 +2418,7 @@ form>.fields>.field.quarter {
 }
 
 label {
-	color: #ffffff;
+	color: #f2ffff;
 	font-weight: bold;
 	line-height: 1.5;
 	margin: 0 0 0.7em 0;
@@ -2463,8 +2463,8 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus,
 textarea:focus {
-	border-color: #ffffff;
-	box-shadow: 0 0 0 1px #ffffff;
+	border-color: #f2ffff;
+	box-shadow: 0 0 0 1px #f2ffff;
 }
 
 select {
@@ -2478,7 +2478,7 @@ select {
 }
 
 select option {
-	color: #ffffff;
+	color: #f2ffff;
 	background: #312450;
 }
 
@@ -2522,7 +2522,7 @@ input[type="radio"] {
 input[type="checkbox"]+label,
 input[type="radio"]+label {
 	text-decoration: none;
-	color: rgba(255, 255, 255, 0.55);
+	color: #f2ffff;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1em;
@@ -2565,16 +2565,16 @@ input[type="radio"]+label:before {
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-	background: #ffffff;
-	border-color: #ffffff;
+	background: #f2ffff;
+	border-color: #f2ffff;
 	color: #b74e91;
 	content: '\f00c';
 }
 
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
-	border-color: #ffffff;
-	box-shadow: 0 0 0 1px #ffffff;
+	border-color: #f2ffff;
+	box-shadow: 0 0 0 1px #f2ffff;
 }
 
 input[type="checkbox"]+label:before {
@@ -2646,7 +2646,7 @@ input[type="radio"]+label:before {
 	width: 2.5em;
 	height: 2.5em;
 	display: block;
-	background: #ffffff;
+	background: #f2ffff;
 	border-radius: 100%;
 	color: #312450;
 	text-align: center;
@@ -3286,7 +3286,7 @@ table td {
 }
 
 table th {
-	color: #ffffff;
+	color: #f2ffff;
 	font-size: 1em;
 	font-weight: bold;
 	padding: 0 0.75em 0.75em 0.75em;
@@ -3368,11 +3368,11 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-	background-color: #606568;
+	background-color: #220022;
 }
 
 .wrapper.style1-alt {
-	background-color: #606568;
+	background-color: #220022;
 }
 
 .wrapper.style2 {
@@ -3384,11 +3384,11 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-	background-color: #005699;
+	background-color: #2B4562;
 }
 
 .wrapper.style3-alt {
-	background-color: #005699;
+	background-color: #2B4562;
 }
 
 .wrapper.fullscreen {
@@ -3505,7 +3505,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #header>.title {
 	border: 0;
-	color: #ffffff;
+	color: #f2ffff;
 	display: block;
 	font-size: 1.25em;
 	font-weight: bold;
@@ -3546,11 +3546,11 @@ body.is-preload .wrapper.fade>.inner {
 }
 
 #header>nav>ul>li a:hover {
-	color: rgba(255, 255, 255, 0.55);
+	color: #f2ffff;
 }
 
 #header>nav>ul>li a.active {
-	color: #ffffff;
+	color: #f2ffff;
 }
 
 @media screen and (max-width: 736px) {
@@ -3652,7 +3652,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #sidebar {
 	padding: 2.5em 2.5em 0.5em 2.5em;
-	background: #172535;
+	background: #0f1923;
 	cursor: default;
 	height: 100vh;
 	left: 0;
